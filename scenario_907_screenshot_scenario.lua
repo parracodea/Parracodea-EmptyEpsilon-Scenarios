@@ -78,15 +78,14 @@ function ForWeapons()
 end
 
 function ForScience()
-    PlayerSpaceship():setTemplate("Atlantis"):setPosition(-54297, 41406):setCallSign("For Science")
+    PlayerSpaceship():setTemplate("Atlantis"):setPosition(-55237, 39423):setCallSign("For Science")
 
-    ScanProbe():setSpeed(0):setLifetime(60 * 300):setPosition(-60813, 46795):setTarget(-60813, 46795)
-
+    ScanProbe():setSpeed(0):setLifetime(60 * 300):setPosition(-66075, 43737):setTarget(-66075, 43737)
 
     CpuShip():setFaction("Human Navy"):setTemplate("Blockade Runner"):setCallSign("SS19"):setPosition(-67768, 20845)
         :setScanned(true)
     CpuShip():setFaction("Human Navy"):setTemplate("Blade"):setCallSign("BR18"):setPosition(-58078, 26754):setScanned(true)
-    CpuShip():setFaction("Kraylor"):setTemplate("Adder MK4"):setCallSign("NC22"):setPosition(-63402, 61531)
+    CpuShip():setFaction("Kraylor"):setTemplate("Adder MK4"):setCallSign("NC22"):setPosition(-63055, 61444)
         :setWeaponStorage("HVLI", 0):setHeading(322)
     CpuShip():setFaction("Kraylor"):setTemplate("Adder MK4"):setCallSign("VK23"):setPosition(-64984, 62183)
         :setWeaponStorage("HVLI", 0):setScanned(true):setHeading(322)
@@ -120,15 +119,11 @@ function ForScience()
     Asteroid():setSize(irandom(10, 500)):setPosition(-55453, 54466)
     Asteroid():setSize(irandom(10, 500)):setPosition(-61122, 54700)
     Asteroid():setSize(irandom(10, 500)):setPosition(-62412, 51815)
-    Asteroid():setSize(irandom(10, 500)):setPosition(-65555, 61168)
     Asteroid():setSize(irandom(10, 500)):setPosition(-65223, 51094)
-    Asteroid():setSize(irandom(10, 500)):setPosition(-65555, 58914)
-    Asteroid():setSize(irandom(10, 500)):setPosition(-65488, 58649)
     BlackHole():setPosition(-73104, 57904)
     Asteroid():setSize(irandom(10, 500)):setPosition(-82653, 58517)
     Asteroid():setSize(irandom(10, 500)):setPosition(-80135, 50630)
 
-    Asteroid():setSize(irandom(10, 500)):setPosition(-78345, 47515)
     Asteroid():setSize(irandom(10, 500)):setPosition(-81659, 51956)
     Asteroid():setSize(irandom(10, 500)):setPosition(-83979, 49371)
     Asteroid():setSize(irandom(10, 500)):setPosition(-65422, 55667)
@@ -223,7 +218,7 @@ function ForEngineering()
 end
 
 function ForGamemaster()
-    PlayerSpaceship():setTemplate("Atlantis"):setPosition(-30867, 29455):setCallSign("Epsilon"):setFaction("USN")
+    PlayerSpaceship():setTemplate("Atlantis"):setPosition(-34312, 27263):setCallSign("Epsilon"):setFaction("USN")
 end
 
 -- Init is run when the scenario is started. Create your initial world
